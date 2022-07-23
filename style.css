@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.screen {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  align-items: center;
+  flex-direction: column;
+}
+.login {
+  margin-top: 38px;
+  width: 350px;
+  height: 396px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  resize: none;
+  align-items: center;
+}
+.instaimg {
+  margin-top: 45px;
+  width: 175px;
+  height: 51px;
+}
+.userpass {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  margin-top: 35px;
+}
+#user {
+  height: 35px;
+  margin-bottom: 7px;
+  color: darkslategray;
+  background-color: rgb(251, 248, 248);
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  font-size: 12px;
+}
+#password {
+  height: 35px;
+  margin-bottom: 15px;
+  color: darkslategray;
+  background-color: rgb(251, 248, 248);
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.loginbutton {
+  display: flex;
+  text-decoration: none;
+  width: 268px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(181, 226, 240);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.or {
+  display: flex;
+  width: 268px;
+  height: 15px;
+  margin-top: 15px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.or hr {
+  border-color: white;
+  flex: 1;
+}
+.or span {
+  color: rgb(175, 167, 167);
+  font-size: 13px;
+  margin: 17px;
+}
+.facebook {
+  display: flex;
+  margin-top: 16px;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+}
+#buttonfacebook {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(82, 82, 173);
+  font-weight: bold;
+  margin-left: 5px;
+}
+.forgotpassword {
+  display: flex;
+  margin-top: 23px;
+  background-color: transparent;
+  border: none;
+}
+#aforgot {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.dontaccount {
+  margin-top: 10px;
+  width: 350px;
+  height: 63px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  resize: none;
+  align-items: center;
+  justify-content: center;
+}
+#dontaccountbutton {
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(82, 82, 173);
+}
+.app {
+  display: flex;
+  margin-top: 20px;
+  width: 350px;
+  height: 102px;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonapp {
+  display: flex;
+  width: 350px;
+  height: 44px;
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+}
+#APP1 {
+  width: 136px;
+  height: 40px;
+  margin-right: 8px;
+}
+#APP2 {
+  width: 136px;
+  height: 40px;
+}
+
